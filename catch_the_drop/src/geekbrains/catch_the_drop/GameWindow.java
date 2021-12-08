@@ -19,6 +19,7 @@ public class GameWindow extends JFrame {
     }
     private static void onRepaint (Graphics g) {
         g.fillOval(10, 10, 200,100);
+        g.drawLine(200, 200, 400, 300);
     }
     private static class GameField extends JPanel{
         /*динамическое замещение методов*/
